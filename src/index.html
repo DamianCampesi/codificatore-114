@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>i19camdam_Calculator</title>
+        <!-- come titolo usare il nome del file-->
+        <link rel="shortcut icon" href="i1camdam_fav.ico" type="image/x-icon">
+        <link rel="icon" href="i1camdam_fav.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Damian Campesi I2BC">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <!-- Google chorome con windows 10 -->
+    <!-- data creazione: 27.09.2019  data ultima modifica: 26.01.2021-->
+        <script src="script.js">
+        </script>
+    </head>
+    <body>
+        <h1>Codificatore con chiave monoalfabetica</h1>
+        <table>
+           <tr>
+                <td>Chiave</td>
+                <td><input type="text" id="key" disabled></td>
+                <td><input type="button" value="genera chiave casuale" onclick="generateKey()"></td>
+            </tr>
+            <tr>
+                <td>Testo</td>
+                <td><textarea type="text" id="txt"></textarea>
+            </tr>
+
+            <tr>
+                <td>Risultato:</td>
+                <td><p id="out"></p></td>
+            </tr>
+        </table>
+        <footer><p>Damian Campesi</p></footer>
+    </body>
+</html>
